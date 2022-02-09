@@ -2322,7 +2322,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7193c390-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SelectForm/SelectForm.vue?vue&type=template&id=6f3a8e10&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3fca3a5c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SelectForm/SelectForm.vue?vue&type=template&id=6f3a8e10&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"v-form-select"},[_c('input',{staticClass:"v-form-select__input",attrs:{"type":_vm.typeText ? 'text' : 'button',"placeholder":_vm.placeholder,"spellcheck":"false"},domProps:{"value":_vm.setValue},on:{"click":function($event){return _vm.dropList()},"input":function($event){return _vm.changeText($event.target.value)}}}),_c('span',{staticClass:"select-focus"}),_c('ul',{directives:[{name:"click-outside",rawName:"v-click-outside",value:(_vm.outList),expression:"outList"},{name:"out-view",rawName:"v-out-view",value:(function () {}),expression:"() => {}"}],ref:"list",attrs:{"x-placement":"bottom"}},_vm._l((_vm.selectOptions),function(option){return _c('li',{key:option.id,attrs:{"value":option.id},on:{"click":function($event){return _vm.selectOption($event)}}},[_vm._v(" "+_vm._s(option.data)+" ")])}),0)])])}
 var staticRenderFns = []
 
@@ -2745,23 +2745,10 @@ var main = __webpack_require__("c1c3");
 
 var MigranteVue = {
   install: function install(Vue) {
-    (function registerComponents(components) {
-      if (components) {
-        for (var key in components) {
-          var component = components[key];
-          if (component) Vue.component(key, component);
-        }
-
-        return true;
-      }
-
-      return true;
-    })(components_namespaceObject);
-
+    registerComponents(Vue, components_namespaceObject);
     registerDirectives(Vue, directives);
   }
 };
-
 
 /* harmony default export */ var components = (MigranteVue);
 // CONCATENATED MODULE: ./src/entry-lib.js
