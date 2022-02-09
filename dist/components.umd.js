@@ -2745,7 +2745,19 @@ var main = __webpack_require__("c1c3");
 
 var MigranteVue = {
   install: function install(Vue) {
-    registerComponents(Vue, components_namespaceObject);
+    (function registerComponents(components) {
+      if (components) {
+        for (var key in components) {
+          var component = components[key];
+          if (component) Vue.component(key, component);
+        }
+
+        return true;
+      }
+
+      return true;
+    })(components_namespaceObject);
+
     registerDirectives(Vue, directives);
   }
 };
