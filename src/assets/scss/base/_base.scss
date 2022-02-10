@@ -4,19 +4,17 @@
   box-sizing: border-box;
 }
 
+button, input:focus {
+  outline: none !important;
+}
+
 ol, ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-button, input:focus {
-  outline: none !important;
-}
-
-/**
-  Flex
-**/
+/* Flex */
 .flex {
   display: flex;
 }
@@ -27,9 +25,7 @@ button, input:focus {
   align-items: center;
 }
 
-/**
-  Elevations and Shadows
-**/
+/* Elevations and Shadows */
 .shadow-light {
   &-100 { box-shadow: var(--shadow-light-100); }
   &-80 { box-shadow: var(--shadow-light-80); }
@@ -38,9 +34,7 @@ button, input:focus {
   &-20 { box-shadow: var(--shadow-light-20); }
 }
 
-/**
-  ScrollBar
-**/
+/* ScrollBar */
 /* Width */
 ::-webkit-scrollbar {
   width: 10px;

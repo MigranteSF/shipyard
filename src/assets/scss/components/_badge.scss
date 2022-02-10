@@ -1,0 +1,62 @@
+.badge {
+    padding: 4px 8px;
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &-sm {
+        padding: 2px 4px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    &-pill {
+        border-radius: 10rem;
+    }
+
+    &-primary {
+        color: var(--neutral-00);
+        background-color: var(--primary-color);
+    }
+
+    &-secondary {
+        color: var(--primary-dark-color);
+        background-color: var(--secondary-color);
+    }
+
+    &-success {
+        color: var(--neutral-00);
+        background-color: var(--success-color);
+    }
+
+    &-danger {
+        color: var(--neutral-00);
+        background-color: var(--error-color);
+    }
+
+    &-warning {
+        color: var(--neutral-70);
+        background-color: var(--warning-color);
+    }
+
+    &-info {
+        color: var(--neutral-00);
+        background-color: var(--info-color);
+    }
+
+    &-light {
+        color: var(--neutral-70);
+        background-color: var(--neutral-05);
+    }
+
+    &-dark {
+        color: var(--neutral-00);
+        background-color: var(--neutral-70);
+    }
+}

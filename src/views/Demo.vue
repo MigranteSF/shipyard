@@ -1,5 +1,14 @@
 <template>
-  <div class="shadow-light-100" style="margin: 10px;background: #fff;padding: 10px;border-radius: 5px; height: 2500px;">
+  <div
+    class="shadow-light-100"
+    style="
+      margin: 10px;
+      background: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      height: 2500px;
+    "
+  >
     <section>
       <h1>Colors</h1>
       <h3>Primary Brand</h3>
@@ -165,7 +174,42 @@
         </p>
       </div>
     </section>
-
+    <section class="mt-3">
+      <h1>Badges</h1>
+      <h3>Standar</h3>
+      <div class="mb-2">
+        <b-badge variant="primary">Primary</b-badge>
+        <b-badge variant="secondary">Secondary</b-badge>
+        <b-badge variant="success">Success</b-badge>
+        <b-badge variant="danger">Danger</b-badge>
+        <b-badge variant="warning">Warning</b-badge>
+        <b-badge variant="info">Info</b-badge>
+        <b-badge variant="light">Light</b-badge>
+        <b-badge variant="dark">Dark</b-badge>
+      </div>
+      <h3>Pill</h3>
+      <div>
+        <b-badge pill variant="primary">Primary</b-badge>
+        <b-badge pill variant="secondary">Secondary</b-badge>
+        <b-badge pill variant="success">Success</b-badge>
+        <b-badge pill variant="danger">Danger</b-badge>
+        <b-badge pill variant="warning">Warning</b-badge>
+        <b-badge pill variant="info">Info</b-badge>
+        <b-badge pill variant="light">Light</b-badge>
+        <b-badge pill variant="dark">Dark</b-badge>
+      </div>
+      <h3>Small</h3>
+      <div>
+        <span class="badge badge-primary badge-pill badge-sm">Primary</span
+        ><span class="badge badge-secondary badge-pill badge-sm">Secondary</span
+        ><span class="badge badge-success badge-pill badge-sm">Success</span
+        ><span class="badge badge-danger badge-pill badge-sm">Danger</span
+        ><span class="badge badge-warning badge-pill badge-sm">Warning</span
+        ><span class="badge badge-info badge-pill badge-sm">Info</span
+        ><span class="badge badge-light badge-pill badge-sm">Light</span
+        ><span class="badge badge-dark badge-pill badge-sm">Dark</span>
+      </div>
+    </section>
     <section class="section-btn mt-3">
       <h1>Buttons</h1>
       <div class="grid">
