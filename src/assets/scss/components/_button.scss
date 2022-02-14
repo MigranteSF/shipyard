@@ -38,7 +38,7 @@
 
   &-secondary,
   &-negative,
-  &-outline {
+  &-dashed {
     color: var(--primary-color);
     border: 1px solid var(--primary-color-60);
 
@@ -53,7 +53,7 @@
   }
 
   //dashed
-  &-outline {
+  &-dashed {
     text-transform: capitalize;
     font-size: 12px;
     font-weight: normal;

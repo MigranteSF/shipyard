@@ -243,16 +243,16 @@
         </button>
       </div>
       <div class="grid">
-        <button class="button button-outline">
+        <button class="button button-dashed">
           <span><i class="fas fa-file-upload"></i>Active</span>
         </button>
-        <button class="button button-outline" disabled>
+        <button class="button button-dashed" disabled>
           <span><i class="fas fa-file-upload"></i>Active</span>
         </button>
-        <button class="button button-outline button-sm">
+        <button class="button button-dashed button-sm">
           <span><i class="fas fa-file-upload"></i>Active</span>
         </button>
-        <button class="button button-outline button-sm" disabled>
+        <button class="button button-dashed button-sm" disabled>
           <span><i class="fas fa-file-upload"></i>Active</span>
         </button>
       </div>
