@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
 
 html, body {
-  font-family: var(--primary-font-family);
-  color: var(--neutral-70);
+  font-family: var(--primary-font-family) !important;
+  color: var(--neutral-70) !important;
 }
 
 h1, .h1, h2, .h2, h4, .h4, h6, .h6 {
-  font-weight: bold;
-  margin: 0px;
+  font-weight: bold !important;
+  margin: 0px !important;
 }
 
 h3, .h3, h5, .h5 {
-  font-weight: normal;
-  margin: 0px;
+  font-weight: normal !important;
+  margin: 0px !important;
 }
 
-h1, .h1 { font-size: 36px; }
+h1, .h1 { font-size: 36px !important; }
 
-h2, .h2 { font-size: 32px; }
+h2, .h2 { font-size: 32px !important; }
 
-h3, .h3 { font-size: 24px; }
+h3, .h3 { font-size: 24px !important; }
 
-h4, .h4 { font-size: 20px; }
+h4, .h4 { font-size: 20px !important; }
 
-h5, .h5 { font-size: 18px; }
+h5, .h5 { font-size: 18px !important; }
 
-h6, .h6 { font-size: 16px; }
+h6, .h6 { font-size: 16px !important; }
 
 .subtitle {
   font-weight: 500;
@@ -38,16 +38,16 @@ h6, .h6 { font-size: 16px; }
 
 .highlight-paragraph { color: var(--primary-dark-color); }
 
-p { font-size: 14px; }
+p { font-size: 14px !important; }
 
-::placeholder { color: var(--neutral-50); }
+::placeholder { color: var(--neutral-50) !important; }
 
 a {
-  color: var(--info-color);
+  color: var(--info-color) !important;
 
   &:hover {
-    color: var(--info-color-80);
+    color: var(--info-color-80) !important;
   }
 }
 
-small { font-size: 12px; }
+small { font-size: 12px !important; }
