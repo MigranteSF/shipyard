@@ -43,10 +43,10 @@ p { font-size: 14px !important; }
 ::placeholder { color: var(--neutral-50) !important; }
 
 a {
-  color: var(--info-color) !important;
+  color: var(--info-color);
 
   &:hover {
-    color: var(--info-color-80) !important;
+    color: var(--info-color-80);
   }
 }
 
