@@ -9,6 +9,7 @@
       height: 2500px;
     "
   >
+    <migrante-logo />
     <section>
       <h1>Colors</h1>
       <h3>Primary Brand</h3>
@@ -36,7 +37,7 @@
             ></span>
           </div>
         </div>
-        <div class="neutral-00" style="width: 180px; border-radius: 4px">
+        <div class="primary-dark" style="width: 180px; border-radius: 4px">
           <div class="bg-secondary" style="min-height: 63px; padding: 5px">
             <h5>secondary</h5>
           </div>

@@ -1,7 +1,7 @@
 export const placement = (el) => {
     let bounding = el.getAttribute('x-placement') == 'bottom'
         ? el.getBoundingClientRect().top
-        : el.getBoundingClientRect().bottom + el.parentElement.offsetHeight
+        : el.getBoundingClientRect().bottom + el.parentElement.offsetHeight + 6
 
     if ((bounding + el.offsetHeight) > window.innerHeight) {
         el.style.top = `unset`

@@ -1,61 +1,30 @@
 <template>
-  <div>
-    <!-- Problema al usar Dropdown de Bootstrap
-      El boton principal no se puede editar a gusto
-    -->
-    <!-- <b-dropdown class="v-form-select" ref="dropdown" variant="none">
-      <template #button-content>
-        <input
-          class="v-form-select__input"
-          :type="typeText ? 'text' : 'button'"
-          :value="setValue"
-          :placeholder="placeholder"
-          spellcheck="false"
-          @click="dropList()"
-          @input="changeText($event.target.value)"
-        />
-        <span class="select-focus"></span>
-      </template>
-      <b-dropdown-form @submit.stop.prevent style="width: 100% !important;">
-        <ul ref="list" x-placement="bottom-start" v-click-outside="outList">
-          <li
-            v-for="option in selectOptions"
-            :key="option.id"
-            :value="option.id"
-            @click="selectOption($event)"
-          >
-            {{ option.data }}
-          </li>
-        </ul>
-      </b-dropdown-form>
-    </b-dropdown> -->
-    <div class="v-form-select">
-      <input
-        class="v-form-select__input"
-        :type="typeText ? 'text' : 'button'"
-        :value="setValue"
-        :placeholder="placeholder"
-        spellcheck="false"
-        @click="dropList()"
-        @input="changeText($event.target.value)"
-      />
-      <span class="select-focus"></span>
-      <ul
-        ref="list"
-        x-placement="bottom"
-        v-click-outside="outList"
-        v-out-view="() => {}"
+  <div class="v-form-select">
+    <input
+      class="v-form-select__input"
+      :type="typeText ? 'text' : 'button'"
+      :value="setValue"
+      :placeholder="placeholder"
+      spellcheck="false"
+      @click="dropList()"
+      @input="changeText($event.target.value)"
+    />
+    <span class="select-focus"></span>
+    <ul
+      ref="list"
+      x-placement="bottom"
+      v-click-outside="outList"
+      v-out-view="() => {}"
+    >
+      <li
+        v-for="option in selectOptions"
+        :key="option.id"
+        :value="option.id"
+        @click="selectOption($event)"
       >
-        <li
-          v-for="option in selectOptions"
-          :key="option.id"
-          :value="option.id"
-          @click="selectOption($event)"
-        >
-          {{ option.data }}
-        </li>
-      </ul>
-    </div>
+        {{ option.data }}
+      </li>
+    </ul>
   </div>
 </template>
 <script>
