@@ -14,6 +14,10 @@ ol, ul {
   padding: 0;
 }
 
+#content-wrapper {
+  background-color: #F8F9FA;
+}
+
 /* Flex */
 .flex {
   display: flex;
@@ -23,6 +27,10 @@ ol, ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
 }
 
 /* Elevations and Shadows */

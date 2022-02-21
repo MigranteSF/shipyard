@@ -6,8 +6,8 @@ import BootstrapVue from 'bootstrap-vue'
 
 Vue.config.productionTip = false
 
-Vue.use(MigranteVue);
 Vue.use(BootstrapVue);
+Vue.use(MigranteVue);
 
 new Vue({
   render: h => h(App),

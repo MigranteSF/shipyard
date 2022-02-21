@@ -2297,6 +2297,7 @@ __webpack_require__.r(__webpack_exports__);
 var components_namespaceObject = {};
 __webpack_require__.r(components_namespaceObject);
 __webpack_require__.d(components_namespaceObject, "SelectForm", function() { return components_SelectForm; });
+__webpack_require__.d(components_namespaceObject, "MigranteLogo", function() { return components_MigranteLogo; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -2630,7 +2631,136 @@ var component = normalizeComponent(
 // CONCATENATED MODULE: ./src/components/SelectForm/index.js
 
 /* harmony default export */ var components_SelectForm = (SelectForm);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"41966b51-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MigranteLogo/MigranteLogo.vue?vue&type=template&id=e40b9656&
+var MigranteLogovue_type_template_id_e40b9656_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex-center",staticStyle:{"background":"#000","text-align":"right"}})}
+var MigranteLogovue_type_template_id_e40b9656_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/MigranteLogo/MigranteLogo.vue?vue&type=template&id=e40b9656&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MigranteLogo/MigranteLogo.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var MigranteLogovue_type_script_lang_js_ = ({
+  name: "migrante-logo",
+  props: {
+    isotipo: {
+      type: Boolean,
+      default: false
+    },
+    horizontal: {
+      type: Boolean,
+      default: true
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/MigranteLogo/MigranteLogo.vue?vue&type=script&lang=js&
+ /* harmony default export */ var MigranteLogo_MigranteLogovue_type_script_lang_js_ = (MigranteLogovue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/MigranteLogo/MigranteLogo.vue
+
+
+
+
+
+/* normalize component */
+
+var MigranteLogo_component = normalizeComponent(
+  MigranteLogo_MigranteLogovue_type_script_lang_js_,
+  MigranteLogovue_type_template_id_e40b9656_render,
+  MigranteLogovue_type_template_id_e40b9656_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var MigranteLogo = (MigranteLogo_component.exports);
+// CONCATENATED MODULE: ./src/components/MigranteLogo/index.js
+
+/* harmony default export */ var components_MigranteLogo = (MigranteLogo);
 // CONCATENATED MODULE: ./src/components/components.js
+
 
 
 // CONCATENATED MODULE: ./src/directives/click-outside/click-outside.js
