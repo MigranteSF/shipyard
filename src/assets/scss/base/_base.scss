@@ -39,6 +39,11 @@ ol, ul {
   justify-content: space-between;
 }
 
+/* Width */
+.w-max {
+  width: max-content;
+}
+
 /* Elevations and Shadows */
 .shadow-light {
   &-100 { box-shadow: var(--shadow-light-100); }
