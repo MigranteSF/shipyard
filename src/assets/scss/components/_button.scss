@@ -109,7 +109,10 @@
   }
 
   &:hover {
-    color: var(--neutral-00);
     text-decoration: none !important;
   }
+}
+
+a.button:hover {
+  color: var(--neutral-00);
 }
