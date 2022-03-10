@@ -64,7 +64,7 @@
 
     &:hover {
       background-color: var(--primary-color-15);
-      color: var(--primary-color);
+      color: var(--primary-color) !important;
     }
 
     & svg {
