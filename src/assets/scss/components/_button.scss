@@ -108,10 +108,11 @@
   }
 
   &:hover {
-    text-decoration: none !important;
+    text-decoration: none;
   }
 }
 
 a.button:hover {
   color: var(--neutral-00);
+  text-decoration: none !important;
 }
