@@ -13,8 +13,8 @@
 .button {
   @extend .button-text-sm !optional;
   border-radius: 10px;
-  border: unset;
-  height: 36px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  height: fit-content;
   min-width: 100px;
   padding: 8px 8px;
   text-align: center;
@@ -95,7 +95,6 @@
     text-transform: capitalize;
     font-weight: 500;
     border-radius: 20px;
-    height: 30px;
     padding: 4.5px 21px;
   }
 
