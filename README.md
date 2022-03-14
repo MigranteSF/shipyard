@@ -1,4 +1,4 @@
-# migrante-design-vue
+# Shipyard
 
 ## Project setup
 ```
