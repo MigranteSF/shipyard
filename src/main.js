@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import MigranteVue from '../dist/index'
-// import MigranteVue from './components'
+import Shipyard from '../dist/index'
+// import Shipyard from './components'
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue);
-Vue.use(MigranteVue);
+Vue.use(Shipyard);
 
 new Vue({
   render: h => h(App),

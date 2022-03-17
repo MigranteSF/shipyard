@@ -2842,14 +2842,14 @@ var main = __webpack_require__("c1c3");
 
 
 
-var MigranteVue = {
+var Shipyard = {
   install: function install(Vue) {
     registerComponents(Vue, components_namespaceObject);
     registerDirectives(Vue, directives);
   }
 };
 
-/* harmony default export */ var components = (MigranteVue);
+/* harmony default export */ var components = (Shipyard);
 // CONCATENATED MODULE: ./src/entry-lib.js
 
 /* harmony default export */ var entry_lib = (components);

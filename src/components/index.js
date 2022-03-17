@@ -3,7 +3,7 @@ import { directives } from '../directives';
 import { registerComponents, registerDirectives } from "../utils/plugins";
 import '../assets/scss/main.scss';
 
-const MigranteVue = {
+const Shipyard = {
     install(Vue) {
         registerComponents(Vue, components)
         registerDirectives(Vue, directives)
@@ -12,4 +12,4 @@ const MigranteVue = {
 
 export * from './components'
 
-export default MigranteVue
+export default Shipyard
