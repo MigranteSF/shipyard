@@ -175,6 +175,7 @@
         </p>
       </div>
     </section>
+
     <section class="mt-3">
       <h1>Badges</h1>
       <h3>Standar</h3>
@@ -211,6 +212,7 @@
         ><span class="badge badge-dark badge-pill badge-sm">Dark</span>
       </div>
     </section>
+
     <section class="section-btn mt-3">
       <h1>Buttons</h1>
       <div class="grid">
@@ -296,6 +298,7 @@
         </label>
       </div>
     </section>
+
     <section class="mt-3">
       <h1>Vue Components</h1>
       <h3>Select <small>select-form</small></h3>
@@ -321,6 +324,7 @@
         </div>
       </div>
     </section>
+
     <section class="mt-3">
       <h1>Card</h1>
       <div class="card shadow-light-20">
@@ -341,6 +345,21 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="mt-3">
+      <h1>Breadcrumbs <small>vanilla</small></h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#">Hola</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="#">Hola2</a>
+        </li>
+        <li class="breadcrumb-item active">
+          Hola3
+        </li>
+      </ol>
     </section>
   </div>
 </template>
