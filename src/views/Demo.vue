@@ -178,7 +178,7 @@
 
     <section class="mt-3">
       <h1>Badges</h1>
-      <h3>Standar</h3>
+      <h3>Standar <small>Bootstrap component</small></h3>
       <div class="mb-2">
         <b-badge variant="primary">Primary</b-badge>
         <b-badge variant="secondary">Secondary</b-badge>
@@ -189,7 +189,7 @@
         <b-badge variant="light">Light</b-badge>
         <b-badge variant="dark">Dark</b-badge>
       </div>
-      <h3>Pill</h3>
+      <h3>Pill <small>Bootstrap component</small></h3>
       <div>
         <b-badge pill variant="primary">Primary</b-badge>
         <b-badge pill variant="secondary">Secondary</b-badge>
@@ -200,17 +200,25 @@
         <b-badge pill variant="light">Light</b-badge>
         <b-badge pill variant="dark">Dark</b-badge>
       </div>
-      <h3>Small</h3>
+      <h3>Small <small>vanilla</small></h3>
       <div>
-        <span class="badge badge-primary badge-pill badge-sm">Primary</span
-        ><span class="badge badge-secondary badge-pill badge-sm">Secondary</span
-        ><span class="badge badge-success badge-pill badge-sm">Success</span
-        ><span class="badge badge-danger badge-pill badge-sm">Danger</span
-        ><span class="badge badge-warning badge-pill badge-sm">Warning</span
-        ><span class="badge badge-info badge-pill badge-sm">Info</span
-        ><span class="badge badge-light badge-pill badge-sm">Light</span
-        ><span class="badge badge-dark badge-pill badge-sm">Dark</span>
+        <span class="badge badge-primary badge-pill badge-sm">Primary</span>
+        <span class="badge badge-secondary badge-pill badge-sm">Secondary</span>
+        <span class="badge badge-success badge-pill badge-sm">Success</span>
+        <span class="badge badge-danger badge-pill badge-sm">Danger</span>
+        <span class="badge badge-warning badge-pill badge-sm">Warning</span>
+        <span class="badge badge-info badge-pill badge-sm">Info</span>
+        <span class="badge badge-light badge-pill badge-sm">Light</span>
+        <span class="badge badge-dark badge-pill badge-sm">Dark</span>
       </div>
+    </section>
+
+    <section class="mt-3">
+      <h1>Chips</h1>
+      <label class="chip">
+        <input type="checkbox"/>
+        <span class="control-input">Migrante</span>
+      </label>
     </section>
 
     <section class="section-btn mt-3">
@@ -340,7 +348,8 @@
               hover
               :items="itemsTable"
               :per-page="per_page"
-              :current-page="current_page">
+              :current-page="current_page"
+            >
             </b-table>
           </div>
         </div>
@@ -356,9 +365,7 @@
         <li class="breadcrumb-item">
           <a href="#">Hola2</a>
         </li>
-        <li class="breadcrumb-item active">
-          Hola3
-        </li>
+        <li class="breadcrumb-item active">Hola3</li>
       </ol>
     </section>
   </div>
@@ -386,13 +393,111 @@ export default {
         { name: "Aruba", code: "AW" },
       ],
       itemsTable: [
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
-        {'Cta': 0, 'Estado': 'A pagar', 'Saldo Insoluto': '$1.500.000', 'Capital': '$0', 'Intereses': '$0', 'MORA': '$0', 'Monto Cuota': '$195.491', 'Pagado por cliente': '--', 'Capital pagado': '--', 'Intereses pagados	': '--', 'MORA Pagada': '$0', 'Vto': '24/12/21', 'Fecha de pago': '24/12/21'},
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
+        {
+          Cta: 0,
+          Estado: "A pagar",
+          "Saldo Insoluto": "$1.500.000",
+          Capital: "$0",
+          Intereses: "$0",
+          MORA: "$0",
+          "Monto Cuota": "$195.491",
+          "Pagado por cliente": "--",
+          "Capital pagado": "--",
+          "Intereses pagados	": "--",
+          "MORA Pagada": "$0",
+          Vto: "24/12/21",
+          "Fecha de pago": "24/12/21",
+        },
       ],
       current_page: 1,
       per_page: 10,

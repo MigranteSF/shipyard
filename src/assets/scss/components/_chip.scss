@@ -1,0 +1,41 @@
+.chip {
+  cursor: pointer;
+  width: fit-content;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  & input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .control-input {
+    @extend .flex-center !optional;
+    padding: 4px 8px;
+    border: 2px solid var(--neutral-25);
+    background: var(--neutral-00);
+    color: var(--neutral-70);
+    box-sizing: border-box;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  & input:checked~.control-input {
+    background-color: var(--neutral-25);
+
+    &::after {
+      display: inline-block;
+      content: '\d7';
+      font-size: 20px;
+      margin-left: 4px;
+    }
+  }
+}
