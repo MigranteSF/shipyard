@@ -6,7 +6,7 @@
   -ms-user-select: none;
   user-select: none;
 
-  & input[type=checkbox] {
+  & input[type=checkbox],input[type=radio] {
     position: absolute;
     opacity: 0;
     cursor: pointer;

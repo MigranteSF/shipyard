@@ -215,10 +215,26 @@
 
     <section class="mt-3">
       <h1>Chips</h1>
+      <h3>Checkbox Type</h3>
       <label class="chip">
         <input type="checkbox"/>
         <span class="control-input">Migrante</span>
       </label>
+      <label class="chip">
+        <input type="checkbox" checked/>
+        <span class="control-input">Migrante</span>
+      </label>
+      <h3>Radio Type</h3>
+      <div class="flex">
+        <label class="chip">
+          <input type="radio" name="radio_type"/>
+          <span class="control-input">Migrante</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="radio_type"/>
+          <span class="control-input">Migrante</span>
+        </label>
+      </div>
     </section>
 
     <section class="section-btn mt-3">
@@ -334,32 +350,6 @@
     </section>
 
     <section class="mt-3">
-      <h1>Vue Components</h1>
-      <h3>Select <small>select-form</small></h3>
-      <div class="flex">
-        <div class="mr-3" style="width: 339px">
-          <small>type-text="true"</small>
-          <select-form
-            v-model="selectValue"
-            :options="selectOptions"
-            value-field="code"
-            text-field="name"
-            :type-text="true"
-            placeholder="Select Item"
-          />
-        </div>
-        <div style="width: 339px">
-          <small>type-text="false"</small>
-          <select-form
-            v-model="selectValueB"
-            :options="['Afghanistan', 'Albania', 'Algeria']"
-            placeholder="Select Item"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="mt-3">
       <h1>Card</h1>
       <div class="card shadow-light-20">
         <div class="card-header justify-space-between">
@@ -393,6 +383,53 @@
         </li>
         <li class="breadcrumb-item active">Hola3</li>
       </ol>
+    </section>
+
+    <section class="mt-3">
+      <h1>Tabs</h1>
+      <ul role="tablist" class="nav nav-tabs mb-4">
+        <li role="presentation" class="nav-item">
+          <a role="tab" class="nav-link active disabled">First</a>
+        </li>
+        <li role="presentation" class="nav-item">
+          <a role="tab" class="nav-link">Second</a>
+        </li>
+        <li role="presentation" class="nav-item">
+          <a role="tab" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <small>(Bootstrap component)</small>
+      <b-tabs content-class="mt-3">
+        <b-tab title="First" active><p>I'm the first tab</p></b-tab>
+        <b-tab title="Second"><p>I'm the second tab</p></b-tab>
+        <b-tab title="Disabled" disabled><p>I'm a disabled tab!</p></b-tab>
+      </b-tabs>
+    </section>
+
+    <section class="mt-3">
+      <h1>Vue Components</h1>
+      <h3>Select <small>select-form</small></h3>
+      <div class="flex">
+        <div class="mr-3" style="width: 339px">
+          <small>type-text="true"</small>
+          <select-form
+            v-model="selectValue"
+            :options="selectOptions"
+            value-field="code"
+            text-field="name"
+            :type-text="true"
+            placeholder="Select Item"
+          />
+        </div>
+        <div style="width: 339px">
+          <small>type-text="false"</small>
+          <select-form
+            v-model="selectValueB"
+            :options="['Afghanistan', 'Albania', 'Algeria']"
+            placeholder="Select Item"
+          />
+        </div>
+      </div>
     </section>
   </div>
 </template>

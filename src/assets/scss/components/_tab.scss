@@ -1,0 +1,38 @@
+.nav-tabs {
+    border-bottom: 1px solid var(--primary-color-20);
+
+    & .nav-item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--primary-dark-color);
+        cursor: pointer;
+    }
+
+    & .nav-link {
+        display: block;
+        padding: 4px 16px;
+        border-bottom: 3px solid transparent;
+        color: unset;
+
+        &.active, .nav-tabs .nav-item.show .nav-link {
+            color: var(--primary-color);
+            background-color: #fff;
+            border-color: transparent;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        &.disabled {
+            color: var(--primary-dark-color);
+            background-color: transparent;
+            border-color: transparent;
+            opacity: 0.4;
+
+            &.active {
+                color: var(--primary-color);
+                border-bottom: 3px solid var(--primary-color);
+                opacity: 0.4;
+            }
+        }
+    }
+}
