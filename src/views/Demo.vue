@@ -280,6 +280,7 @@
         </select>
         <span class="select-focus"></span>
       </div>
+
       <h3 class="mt-3">Checkbox - Radiobuttons <small>vanilla</small></h3>
       <div class="flex">
         <label class="form-checkbox mr-3">
@@ -305,6 +306,31 @@
           <span class="checkmark"></span>
         </label>
       </div>
+
+      <h3 class="mt-3">Switch  <small>vanilla (Bootstrap-based)</small></h3>
+      <div class="custom-switch">
+        <input type="checkbox" class="custom-control-input" id="switch_a">
+        <label class="custom-control-label" for="switch_a">
+          Switch Checkbox <b>(Vanilla)</b>
+        </label>
+      </div>
+      <div class="custom-switch">
+        <input type="checkbox" class="custom-control-input" id="switch_b">
+        <label class="custom-control-label" for="switch_b"></label>
+      </div>
+      <div class="flex">
+        <div class="custom-switch">
+          <input type="checkbox" class="custom-control-input" id="switch_c" disabled>
+          <label class="custom-control-label" for="switch_c"></label>
+        </div>
+        <div class="custom-switch">
+          <input type="checkbox" class="custom-control-input" id="switch_d" checked disabled>
+          <label class="custom-control-label" for="switch_d"></label>
+        </div>
+      </div>
+      <b-form-checkbox name="check-button" switch>
+        Switch Checkbox <b>(Bootstrap component)</b>
+      </b-form-checkbox>
     </section>
 
     <section class="mt-3">
