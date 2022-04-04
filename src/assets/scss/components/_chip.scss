@@ -38,4 +38,10 @@
       margin-left: 4px;
     }
   }
+
+  & input[type=radio]:checked {
+    & ~ .control-input::after {
+      display: none;
+    }
+  }
 }
