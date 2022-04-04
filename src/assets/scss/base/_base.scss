@@ -39,6 +39,16 @@ ol, ul {
   justify-content: space-between;
 }
 
+/* dividers */
+.vertical-line {
+  border-left: 1px solid var(--neutral-25);
+  height: 24px;
+}
+
+.horizontal-line {
+  border-top: 1px solid var(--neutral-25);
+}
+
 /* Width */
 .w-max {
   width: max-content;
@@ -54,24 +64,20 @@ ol, ul {
 }
 
 /* ScrollBar */
-/* Width */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f16b;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--neutral-25);
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #888;
 }

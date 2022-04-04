@@ -13,7 +13,7 @@
 .button {
   @extend .button-text-sm !optional;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 2px solid transparent;
   height: fit-content;
   min-width: 100px;
   padding: 8px 8px;
