@@ -54,6 +54,11 @@ ol, ul {
   width: max-content;
 }
 
+/* Cursor */
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
 /* Elevations and Shadows */
 .shadow-light {
   &-100 { box-shadow: var(--shadow-light-100); }
