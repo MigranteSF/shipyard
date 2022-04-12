@@ -224,6 +224,10 @@
         <input type="checkbox" checked/>
         <span class="control-input">Migrante</span>
       </label>
+      <label class="chip">
+        <input type="checkbox" checked/>
+        <span class="control-input check">Migrante</span>
+      </label>
       <h3>Radio Type</h3>
       <div class="flex">
         <label class="chip">
