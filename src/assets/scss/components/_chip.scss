@@ -57,4 +57,19 @@
       display: none;
     }
   }
+
+  &.primary {
+    .control-input {
+      border-color: var(--primary-color);
+    }
+
+    & input:checked~.control-input {
+      background-color: var(--primary-color);
+      color: var(--neutral-00);
+
+      &.check::after {
+        border-color: solid var(--primary-color);
+      }
+    }
+  }
 }
