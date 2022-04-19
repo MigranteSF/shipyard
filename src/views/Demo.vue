@@ -307,7 +307,7 @@
 
       <h3 class="mt-3">Checkbox - Radiobuttons <small>vanilla</small></h3>
       <div class="flex">
-        <label class="form-checkbox mr-3">
+        <label class="form-checkbox mr-3 mb-1">
           Hi
           <input type="checkbox" />
           <span class="checkmark"></span>
