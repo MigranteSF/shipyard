@@ -23,27 +23,27 @@
   cursor: pointer;
 
   &-primary {
-    background-color: var(--primary-color);
-    color: var(--neutral-00);
+    background-color: $primary-100;
+    color: $neutral-00;
 
     &.button-sm {
-      background-color: var(--primary-dark-color-80);
+      background-color: $primary-dark-80;
     }
 
     &:hover {
-      background-color: var(--primary-dark-color);
+      background-color: $primary-dark-100;
     }
   }
 
   &-secondary,
   &-negative,
   &-dashed {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color-60);
+    color: $primary-100;
+    border: 1px solid $primary-60;
 
     &:hover {
-      background-color: var(--primary-color-60);
-      color: var(--neutral-00);
+      background-color: $primary-60;
+      color: $neutral-00;
     }
   }
 
@@ -63,8 +63,8 @@
     text-align: -webkit-center;
 
     &:hover {
-      background-color: var(--primary-color-15);
-      color: var(--primary-color) !important;
+      background-color: $primary-15;
+      color: $primary-100 !important;
     }
 
     & svg {
@@ -104,7 +104,7 @@
   }
 
   &:focus {
-    border: 2px solid var(--primary-color-60) !important;
+    border: 2px solid $primary-60 !important;
   }
 
   &:hover {
@@ -113,6 +113,6 @@
 }
 
 a.button:hover {
-  color: var(--neutral-00);
+  color: $neutral-00;
   text-decoration: none !important;
 }

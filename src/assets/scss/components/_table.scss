@@ -6,17 +6,17 @@ table {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        color: var(--neutral-70);
+        color: $neutral-70;
     }
 
     thead th {
         background-color: rgba(242, 242, 242, 0.6);
         font-weight: bold;
         font-size: 16px;
-        color: var(--primary-dark-color);
+        color: $primary-dark-100;
     }
 
     tbody tr {
-        border-bottom: 1px solid var(--neutral-10);
+        border-bottom: 1px solid $neutral-10;
     }
 }

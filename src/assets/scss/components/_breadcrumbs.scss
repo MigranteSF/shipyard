@@ -9,7 +9,7 @@
 
     &-item {
         &.active {
-            color: var(--neutral);
+            color: $neutral-100;
         }
 
         & + .breadcrumb-item {
@@ -19,7 +19,7 @@
                 float: left;
                 padding-right: 0.5rem;
                 content: '>';
-                color: var(--neutral);
+                color: $neutral-100;
             }
         }
     }

@@ -1,8 +1,17 @@
+@import "functions";
+
 @import "bootstrap/scss/bootstrap";
+
 @import "abstracts/variables";
+
 @import "base/base";
+@import "base/border";
 @import "base/margin";
+@import "base/position";
 @import "base/typography";
+@import "base/flex";
+@import "base/width";
+
 @import "components/badge";
 @import "components/breadcrumbs";
 @import "components/button";
@@ -14,4 +23,5 @@
 @import "components/switch";
 @import "components/tab";
 @import "components/table";
+
 @import "abstracts/colors";

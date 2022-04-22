@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-// import Shipyard from '../dist/index'
-import Shipyard from './components'
+import Shipyard from '../dist/index'
+// import Shipyard from './components'
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.config.productionTip = false

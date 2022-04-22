@@ -18,40 +18,14 @@ ol, ul {
   background-color: #F8F9FA;
 }
 
-/* Flex */
-.flex {
-  display: flex;
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-space-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.justify-space-between {
-  justify-content: space-between;
-}
-
 /* dividers */
 .vertical-line {
-  border-left: 1px solid var(--neutral-25);
+  border-left: 1px solid $neutral-25;
   height: 24px;
 }
 
 .horizontal-line {
-  border-top: 1px solid var(--neutral-25);
-}
-
-/* Width */
-.w-max {
-  width: max-content;
+  border-top: 1px solid $neutral-25;
 }
 
 /* Cursor */
@@ -61,11 +35,11 @@ ol, ul {
 
 /* Elevations and Shadows */
 .shadow-light {
-  &-100 { box-shadow: var(--shadow-light-100); }
-  &-80 { box-shadow: var(--shadow-light-80); }
-  &-60 { box-shadow: var(--shadow-light-60); }
-  &-40 { box-shadow: var(--shadow-light-40); }
-  &-20 { box-shadow: var(--shadow-light-20); }
+  &-100 { box-shadow: $shadow-light-100; }
+  &-80 { box-shadow: $shadow-light-80; }
+  &-60 { box-shadow: $shadow-light-60; }
+  &-40 { box-shadow: $shadow-light-40; }
+  &-20 { box-shadow: $shadow-light-20; }
 }
 
 /* ScrollBar */
@@ -79,7 +53,7 @@ ol, ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--neutral-25);
+  background: $neutral-25;
   border-radius: 12px;
 }
 

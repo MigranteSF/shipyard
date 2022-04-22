@@ -17,9 +17,9 @@
   .control-input {
     @extend .flex-center !optional;
     padding: 4px 8px;
-    border: 2px solid var(--neutral-25);
-    background: var(--neutral-00);
-    color: var(--neutral-70);
+    border: 2px solid $neutral-25;
+    background: $neutral-00;
+    color: $neutral-70;
     box-sizing: border-box;
     border-radius: 22px;
     font-weight: 700;
@@ -29,7 +29,7 @@
   }
 
   & input:checked~.control-input {
-    background-color: var(--neutral-25);
+    background-color: $neutral-25;
 
     &::after {
       display: inline-block;
@@ -46,7 +46,7 @@
       margin-right: 2px;
       width: 4px;
       height: 10px;
-      border: solid var(--neutral-70);
+      border: solid $neutral-70;
       border-width: 0 2px 2px 0;
       transform: rotate(45deg);
     }
@@ -60,15 +60,15 @@
 
   &.primary {
     .control-input {
-      border-color: var(--primary-color);
+      border-color: $primary-100;
     }
 
     & input:checked~.control-input {
-      background-color: var(--primary-color);
-      color: var(--neutral-00);
+      background-color: $primary-100;
+      color: $neutral-00;
 
       &.check::after {
-        border: solid var(--neutral-00);
+        border: solid $neutral-00;
         border-width: 0 2px 2px 0;
       }
     }

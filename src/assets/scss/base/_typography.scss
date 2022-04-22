@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
 
 html, body {
-  font-family: var(--primary-font-family) !important;
-  color: var(--neutral-70);
+  font-family: $primary-font-family !important;
+  color: $neutral-70;
   font-size: 14px;
 }
 
@@ -30,7 +30,7 @@ h6, .h6 { font-size: 16px !important; }
 
 .subtitle {
   font-style: normal;
-  color: var(--primary-dark-color);
+  color: $primary-dark-100;
   font-size: 16px;
   line-height: 22px;
 
@@ -40,18 +40,39 @@ h6, .h6 { font-size: 16px !important; }
 }
 
 
-.highlight-paragraph { color: var(--primary-dark-color); }
+.highlight-paragraph { color: $primary-dark-100; }
 
 p { font-size: 14px !important; }
 
-::placeholder { color: var(--neutral-50) !important; }
+::placeholder { color: $neutral-50 !important; }
 
 a {
-  color: var(--info-color);
+  color: $info-100;
 
   &:hover {
-    color: var(--info-color-80);
+    color: $info-80;
   }
 }
 
 small { font-size: 12px !important; }
+
+.regular {
+  font-weight: normal !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+.bold-italic {
+  font-weight: bold !important;
+  font-style: italic !important;
+}
