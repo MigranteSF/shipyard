@@ -1,26 +1,25 @@
-.button-text-md {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.button-text-sm {
+.button {
+  @extend .flex-center !optional;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
-}
-
-.button {
-  @extend .button-text-sm !optional;
+  line-height: 20px;
   border-radius: 10px;
   border: 2px solid transparent;
   height: fit-content;
-  min-width: 100px;
-  padding: 8px 8px;
+  padding: 6px 12px;
   text-align: center;
-  line-height: inherit;
   background-color: #fff0;
   cursor: pointer;
+
+  & svg, img {
+    margin-left: 12px;
+  }
+
+  &-lg {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
 
   &-primary {
     background-color: $primary-100;
@@ -51,15 +50,15 @@
     border: 2px solid transparent;
   }
 
-  //dashed
   &-dashed {
     text-transform: capitalize;
     font-size: 12px;
     font-weight: normal;
     border-style: dashed;
     border-radius: 12px;
-    height: unset;
-    padding-block: 22px;
+    padding: 18px 12px;
+    min-width: 125px;
+    text-align: center;
     text-align: -webkit-center;
 
     &:hover {
@@ -67,18 +66,18 @@
       color: $primary-100 !important;
     }
 
-    & svg {
+    & svg, img {
       display: block;
       font-size: 20px;
-      margin-bottom: 12px;
+      margin-left: 0px;
+      margin-bottom: 10px;
     }
 
     &.button-sm {
       border-radius: 12px;
-      padding: 14px 16.5px;
-      height: unset;
+      padding: 12px;
 
-      & svg {
+      & svg, img {
         display: unset;
         margin-bottom: unset;
         margin-right: 14.5px;

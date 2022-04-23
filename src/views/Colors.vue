@@ -123,7 +123,10 @@
               <div class="flex-space-between">
                 <small>bg-neutral-{{color}}</small>
                 <div :class="`rounded bg-neutral-${color == 25 ? '50' : '25'} p-1`">
-                  <small :class="`neutral-${color}`"><b>neutral-{{color}}</b></small>
+                  <small :class="`neutral-${color}`">
+                    <b>neutral-{{color}}</b>
+                    <i v-if="index === 6" class="fa-solid fa-cat"></i>
+                  </small>
                 </div>
               </div>
             </div>
@@ -135,7 +138,7 @@
 </template>
 <script>
 export default {
-  name: 'colors',
+  name: 'Colors',
   data() {
     return {
       scale: [100, 80, 60, 15],

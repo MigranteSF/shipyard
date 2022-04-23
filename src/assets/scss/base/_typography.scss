@@ -54,25 +54,19 @@ a {
   }
 }
 
-small { font-size: 12px !important; }
+small, .small { font-size: 12px !important; }
 
-.regular {
-  font-weight: normal !important;
-}
+.regular { font-weight: normal !important; }
 
-.medium {
-  font-weight: 500 !important;
-}
+.p-medium { font-weight: 500 !important; }
 
-.bold {
-  font-weight: bold !important;
-}
+.bold { font-weight: bold !important; }
 
-.italic {
-  font-style: italic !important;
-}
+.italic { font-style: italic !important; }
 
 .bold-italic {
   font-weight: bold !important;
   font-style: italic !important;
 }
+
+.underline { text-decoration: underline !important; }

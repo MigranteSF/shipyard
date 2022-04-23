@@ -1,62 +1,8 @@
 <template>
   <div class="shadow-light-100 p-3 m-3 bg-white">
+    <main>
 
-    <!-- <aside>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Colors</a>
-          </li>
-          <li>
-            <a href="#">Typography</a>
-          </li>
-        </ul>
-      </nav>
-    </aside> -->
-
-    <main class="bd-main order-1">
       <!-- <migrante-logo /> -->
-
-      <colors />
-
-      <typography />
-
-      <section class="mt-3">
-        <h1>Badges</h1>
-        <h3>Standar <small>Bootstrap component</small></h3>
-        <div class="mb-2">
-          <b-badge variant="primary">Primary</b-badge>
-          <b-badge variant="secondary">Secondary</b-badge>
-          <b-badge variant="success">Success</b-badge>
-          <b-badge variant="danger">Danger</b-badge>
-          <b-badge variant="warning">Warning</b-badge>
-          <b-badge variant="info">Info</b-badge>
-          <b-badge variant="light">Light</b-badge>
-          <b-badge variant="dark">Dark</b-badge>
-        </div>
-        <h3>Pill <small>Bootstrap component</small></h3>
-        <div>
-          <b-badge pill variant="primary">Primary</b-badge>
-          <b-badge pill variant="secondary">Secondary</b-badge>
-          <b-badge pill variant="success">Success</b-badge>
-          <b-badge pill variant="danger">Danger</b-badge>
-          <b-badge pill variant="warning">Warning</b-badge>
-          <b-badge pill variant="info">Info</b-badge>
-          <b-badge pill variant="light">Light</b-badge>
-          <b-badge pill variant="dark">Dark</b-badge>
-        </div>
-        <h3>Small <small>vanilla</small></h3>
-        <div>
-          <span class="badge badge-primary badge-pill badge-sm">Primary</span>
-          <span class="badge badge-secondary badge-pill badge-sm">Secondary</span>
-          <span class="badge badge-success badge-pill badge-sm">Success</span>
-          <span class="badge badge-danger badge-pill badge-sm">Danger</span>
-          <span class="badge badge-warning badge-pill badge-sm">Warning</span>
-          <span class="badge badge-info badge-pill badge-sm">Info</span>
-          <span class="badge badge-light badge-pill badge-sm">Light</span>
-          <span class="badge badge-dark badge-pill badge-sm">Dark</span>
-        </div>
-      </section>
 
       <section class="mt-3">
         <h1>Chips</h1>
@@ -87,54 +33,6 @@
             <input type="radio" name="radio_type"/>
             <span class="control-input">Migrante</span>
           </label>
-        </div>
-      </section>
-
-      <section class="section-btn mt-3">
-        <h1>Buttons</h1>
-        <div class="grid">
-          <button class="button button-primary">Active</button>
-          <button class="button button-primary" disabled>Active</button>
-          <button class="button button-primary button-sm">
-            Active <i class="fas fa-upload" style="margin-left: 10px"></i>
-          </button>
-          <button class="button button-primary button-sm" disabled>
-            Active <i class="fas fa-upload" style="margin-left: 10px"></i>
-          </button>
-        </div>
-        <div class="grid">
-          <button class="button button-secondary">Active</button>
-          <button class="button button-secondary" disabled>Active</button>
-          <button class="button button-secondary button-sm">
-            Active <i class="fas fa-upload" style="margin-left: 10px"></i>
-          </button>
-          <button class="button button-secondary button-sm" disabled>
-            Active <i class="fas fa-upload" style="margin-left: 10px"></i>
-          </button>
-        </div>
-        <div class="grid">
-          <button class="button button-negative">Active</button>
-          <button class="button button-negative" disabled>Active</button>
-          <button class="button button-negative button-sm">
-            Active <i class="fas fa-upload" style="margin-left: 10px"></i>
-          </button>
-          <button class="button button-negative button-sm" disabled>
-            Active <i class="fas fa-upload" style="margin-left: 10px"></i>
-          </button>
-        </div>
-        <div class="grid">
-          <button class="button button-dashed">
-            <span><i class="fas fa-file-upload"></i>Active</span>
-          </button>
-          <button class="button button-dashed" disabled>
-            <span><i class="fas fa-file-upload"></i>Active</span>
-          </button>
-          <button class="button button-dashed button-sm">
-            <span><i class="fas fa-file-upload"></i>Active</span>
-          </button>
-          <button class="button button-dashed button-sm" disabled>
-            <span><i class="fas fa-file-upload"></i>Active</span>
-          </button>
         </div>
       </section>
 
@@ -288,11 +186,7 @@
   </div>
 </template>
 <script>
-import Colors from './Colors.vue';
-import Typography from './Typography.vue';
-
 export default {
-  components: { Colors, Typography },
   name: "Demo",
   data() {
     return {
