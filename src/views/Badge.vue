@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="mb-7">Badges</h1>
+    <h1 class="mb-7">Badge</h1>
 
     <div class="ml-3">
       <div class="mb-3">
@@ -15,30 +15,16 @@
           <span class="badge badge-light mr-2">Light</span>
           <span class="badge badge-dark mr-2">Dark</span>
         </div>
-        <div class="rounded bg-neutral-10 p-4">
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-primary"&gt;Primary&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-secondary"&gt;Secondary&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-success"&gt;Success&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-danger"&gt;Danger&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-warning"&gt;Warning&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-info"&gt;Info&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-light"&gt;Light&lt;<span class="info-80">/span</span>&gt;
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-dark"&gt;Dark&lt;<span class="info-80">/span</span>&gt;
+        <div class="code">
+          <code>
+            &lt;<em>span</em> <i>class</i>="badge badge-primary"&gt;Primary&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-secondary"&gt;Secondary&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-success"&gt;Success&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-danger"&gt;Danger&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-warning"&gt;Warning&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-info"&gt;Info&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-light"&gt;Light&lt;<em>/span</em>&gt;<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-dark"&gt;Dark&lt;<em>/span</em>&gt;
           </code>
         </div>
       </div>
@@ -56,17 +42,16 @@
           <span class="badge badge-light badge-pill mr-2">Light</span>
           <span class="badge badge-dark badge-pill mr-2">Dark</span>
         </div>
-        <div class="rounded bg-neutral-10 p-4">
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-primary badge-pill"&gt;Primary&lt;<span class="info-80">/span</span>&gt;
-            ...
+        <div class="code">
+          <code>
+            &lt;<em>span</em> <i>class</i>="badge badge-primary badge-pill"&gt;Primary&lt;<em>/span</em>&gt; ...
           </code>
         </div>
       </div>
 
       <div class="mb-3">
         <h2 class="mb-2">Small</h2>
-        <p>Do you want a tiny badged? Well, here you go: <span class="error-100">class</span> <i class="bold">badge-sm</i>.</p>
+        <p>Do you want a tiny badge? Well, here you go: <span class="error-100">class</span> <i class="bold">badge-sm</i>.</p>
         <div class="mb-2 border p-3 rounded">
           <span class="badge badge-primary badge-sm mr-2">Primary</span>
           <span class="badge badge-secondary badge-sm mr-2">Secondary</span>
@@ -77,21 +62,17 @@
           <span class="badge badge-light badge-pill badge-sm mr-2">Light</span>
           <span class="badge badge-dark badge-pill badge-sm mr-2">Dark</span>
         </div>
-        <div class="rounded bg-neutral-10 p-4">
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-primary badge-sm"&gt;Primary&lt;<span class="info-80">/span</span>&gt;
-            ...
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">span</span> <span class="error-100">class</span>="badge badge-warning badge-pill badge-sm"&gt;Warning&lt;<span class="info-80">/span</span>&gt;
-            ...
+        <div class="code">
+          <code>
+            &lt;<em>span</em> <i>class</i>="badge badge-primary badge-sm"&gt;Primary&lt;<em>/span</em>&gt; ...<br>
+            &lt;<em>span</em> <i>class</i>="badge badge-warning badge-pill badge-sm"&gt;Warning&lt;<em>/span</em>&gt; ...
           </code>
         </div>
       </div>
 
       <div class="mb-3">
         <h2 class="mb-2">Bootstrap Component</h2>
-        <p>It also affects bootstrap components.</p>
+        <p>It also affects <a href="https://bootstrap-vue.org/docs/components/badge#badge" target="_blank">bootstrap components</a>.</p>
         <div class="mb-2 border p-3 rounded">
           <b-badge variant="primary" class="mr-2">Primary</b-badge>
           <b-badge variant="secondary" class="mr-2">Secondary</b-badge>
@@ -102,14 +83,10 @@
           <b-badge pill variant="light" class="mr-2">Light</b-badge>
           <b-badge pill variant="dark" class="mr-2">Dark</b-badge>
         </div>
-        <div class="rounded bg-neutral-10 p-4">
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">b-badge</span> <span class="error-100">variant</span>="primary"&gt;Primary&lt;<span class="info-80">/b-badge</span>&gt;
-            ...
-          </code>
-          <code class="d-block primary-dark-100">
-            &lt;<span class="info-80">b-badge</span> <span class="error-100">pill</span> <span class="error-100">variant</span>="warning"&gt;Warning&lt;<span class="info-80">/b-badge</span>&gt;
-            ...
+        <div class="code">
+          <code>
+            &lt;<em>b-badge</em> <i>variant</i>="primary"&gt;Primary&lt;<em>/b-badge</em>&gt; ...<br>
+            &lt;<em>b-badge</em> <i>pill</i> <i>variant</i>="warning"&gt;Warning&lt;<em>/b-badge</em>&gt; ...
           </code>
         </div>
       </div>
@@ -118,7 +95,7 @@
 </template>
 <script>
 export default {
-  name: "Badges"
+  name: "Badge"
 }
 </script>
 <style lang="scss" scoped>

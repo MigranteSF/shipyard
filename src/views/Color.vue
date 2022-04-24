@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="mb-7">Colors</h1>
+    <h1 class="mb-7">Color</h1>
 
     <div class="ml-3 mb-5">
       <h2>Primary Colors</h2>
@@ -138,7 +138,7 @@
 </template>
 <script>
 export default {
-  name: 'Colors',
+  name: 'Color',
   data() {
     return {
       scale: [100, 80, 60, 15],

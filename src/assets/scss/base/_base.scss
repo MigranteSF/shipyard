@@ -33,6 +33,10 @@ hr, .horizontal-line {
   cursor: grabbing;
 }
 
+.cursor-default {
+  cursor: default;
+}
+
 /* Elevations and Shadows */
 .shadow-light {
   &-100 { box-shadow: $shadow-light-100; }

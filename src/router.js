@@ -1,18 +1,30 @@
 import Vue from "vue"
 import VueRouter from 'vue-router'
-import Colors from "./views/Colors.vue"
+import Home from "./views/Home.vue"
+import Color from "./views/Color.vue"
 import Typography from "./views/Typography.vue"
-import ElevationsShadows from "./views/ElevationsShadows.vue"
-import Buttons from "./views/Buttons.vue"
-import Badges from "./views/Badges.vue"
+import ElevationShadow from "./views/ElevationShadow.vue"
+import Button from "./views/Button.vue"
+import Badge from "./views/Badge.vue"
+import Breadcrumb from "./views/Breadcrumb.vue"
+import Tab from "./views/Tab.vue"
+import SCheckSwitch from "./views/SCheckSwitch.vue"
+import Chip from "./views/Chip.vue"
+import ChecksRadios from "./views/ChecksRadios.vue"
+import Need from "./views/Need.vue"
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'home',
+    component: Home
+  },
+  {
+    path: '/color',
     name: 'color',
-    component: Colors
+    component: Color
   },
   {
     path: '/typography',
@@ -20,19 +32,49 @@ const routes = [
     component: Typography
   },
   {
-    path: '/elevations&shadows',
-    name: 'elevations&shadows',
-    component: ElevationsShadows
+    path: '/elevation&shadow',
+    name: 'elevation&shadow',
+    component: ElevationShadow
   },
   {
-    path: '/buttons',
-    name: 'buttons',
-    component: Buttons
+    path: '/button',
+    name: 'button',
+    component: Button
   },
   {
-    path: '/badges',
-    name: 'badges',
-    component: Badges
+    path: '/badge',
+    name: 'badge',
+    component: Badge
+  },
+  {
+    path: '/breadcrumb',
+    name: 'breadcrumb',
+    component: Breadcrumb
+  },
+  {
+    path: '/tab',
+    name: 'tab',
+    component: Tab
+  },
+  {
+    path: '/switch',
+    name: 'switch',
+    component: SCheckSwitch
+  },
+  {
+    path: '/chip',
+    name: 'chip',
+    component: Chip
+  },
+  {
+    path: '/checks&radios',
+    name: 'checks&radios',
+    component: ChecksRadios
+  },
+  {
+    path: '/need',
+    name: 'need',
+    component: Need
   }
 ]
 

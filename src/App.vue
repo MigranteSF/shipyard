@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="header bg-primary-100 flex">
       <div class="flex-center">
-        <img src="./assets/svg/migrante.svg" alt="Migrante">
+        <a href="/"><img src="./assets/svg/migrante.svg" alt="Migrante"></a>
         <div class="vertical-line mx-3"></div>
         <b class="primary-15">SHIPYARD</b>
       </div>
@@ -12,39 +12,52 @@
         <nav class="nav-links">
           <ul>
             <li class="mb-1 w-max">
-              <router-link to="/" class="neutral-70"><h6 class="regular">Colors</h6></router-link>
+              <router-link to="/color" class="neutral-70"><h6 class="regular">Color</h6></router-link>
             </li>
             <li class="mb-1 w-max">
               <router-link to="/typography" class="neutral-70"><h6 class="regular">Typography</h6></router-link>
             </li>
             <li class="mb-1 w-max">
-              <router-link to="/elevations&shadows" class="neutral-70"><h6 class="regular">Elevations and Shadows</h6></router-link>
+              <router-link to="/elevation&shadow" class="neutral-70"><h6 class="regular">Elevation and Shadow</h6></router-link>
             </li>
             <li class="mb-1 w-max">
-              <router-link to="/buttons" class="neutral-70" href="#buttons-page"><h6 class="regular">Buttons</h6></router-link>
+              <router-link to="/button" class="neutral-70"><h6 class="regular">Button</h6></router-link>
             </li>
             <li class="mb-1 w-max">
-              <router-link to="/badges" class="neutral-70" href="#buttons-page"><h6 class="regular">Badges</h6></router-link>
+              <router-link to="/badge" class="neutral-70"><h6 class="regular">Badge</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
+              <router-link to="/breadcrumb" class="neutral-70"><h6 class="regular">Breadcrumb</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
+              <router-link to="/tab" class="neutral-70"><h6 class="regular">Tab</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
+              <router-link to="/switch" class="neutral-70"><h6 class="regular">Switch</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
+              <router-link to="/chip" class="neutral-70"><h6 class="regular">Chip</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
+              <router-link to="/checks&radios" class="neutral-70"><h6 class="regular">Checks & Radios</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
+              <router-link to="/need" class="neutral-70"><h6 class="regular">Need ...</h6></router-link>
             </li>
           </ul>
         </nav>
       </aside>
       <main class="col-md-9 col-xl-10 col-12 pt-4 pb-3">
-        <router-view></router-view>
+        <div class="shadow-light-100 p-3">
+          <router-view></router-view>
+        </div>
       </main>
     </div>
-
-    <hr>
-
-    <Demo />
   </div>
 </template>
 <script>
-import Demo from "./views/Demo.vue"
-
 export default {
   name: 'App',
-  components: { Demo },
 }
 </script>
 <style lang="scss">

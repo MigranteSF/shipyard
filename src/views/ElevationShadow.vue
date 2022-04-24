@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="mb-7">Elevations and Shadows</h1>
+    <h1 class="mb-7">Elevation and Shadow</h1>
 
     <div class="sd-example-shadow flex border p-3 rounded mb-3">
       <span class="card border-0 shadow-light-100 mx-3">
@@ -19,22 +19,13 @@
         <p>Shadow 20%</p>
       </span>
     </div>
-
-    <div class="rounded bg-neutral-10 p-4 relative">
-      <code class="d-block primary-dark-100">
-        &lt;<span class="info-80">span</span> <span class="error-100">class</span>="shadow-light-100"&gt;Shadow 100%&lt;<span class="info-80">/span</span>&gt;
-      </code>
-      <code class="d-block primary-dark-100">
-        &lt;<span class="info-80">span</span> <span class="error-100">class</span>="shadow-light-80"&gt;Shadow 80%&lt;<span class="info-80">/span</span>&gt;
-      </code>
-      <code class="d-block primary-dark-100">
-        &lt;<span class="info-80">span</span> <span class="error-100">class</span>="shadow-light-60"&gt;Shadow 60%&lt;<span class="info-80">/span</span>&gt;
-      </code>
-      <code class="d-block primary-dark-100">
-        &lt;<span class="info-80">span</span> <span class="error-100">class</span>="shadow-light-40"&gt;Shadow 40%&lt;<span class="info-80">/span</span>&gt;
-      </code>
-      <code class="d-block primary-dark-100">
-        &lt;<span class="info-80">span</span> <span class="error-100">class</span>="shadow-light-20"&gt;Shadow 20%&lt;<span class="info-80">/span</span>&gt;
+    <div class="code">
+      <code>
+        &lt;<em>span</em> <i>class</i>="shadow-light-100"&gt;Shadow 100%&lt;<em>/span</em>&gt;<br>
+        &lt;<em>span</em> <i>class</i>="shadow-light-80"&gt;Shadow 80%&lt;<em>/span</em>&gt;<br>
+        &lt;<em>span</em> <i>class</i>="shadow-light-60"&gt;Shadow 60%&lt;<em>/span</em>&gt;<br>
+        &lt;<em>span</em> <i>class</i>="shadow-light-40"&gt;Shadow 40%&lt;<em>/span</em>&gt;<br>
+        &lt;<em>span</em> <i>class</i>="shadow-light-20"&gt;Shadow 20%&lt;<em>/span</em>&gt;
       </code>
       <i class="fa-solid fa-cat absolute flip-2-hor-top-1"></i>
     </div>
@@ -42,7 +33,7 @@
 </template>
 <script>
 export default {
-  name: 'ElevationsShadows'
+  name: 'ElevationShadow'
 }
 </script>
 <style lang="scss" scoped>
