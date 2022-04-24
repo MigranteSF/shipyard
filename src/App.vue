@@ -42,6 +42,9 @@
               <router-link to="/checks&radios" class="neutral-70"><h6 class="regular">Checks & Radios</h6></router-link>
             </li>
             <li class="mb-1 w-max">
+              <router-link to="/select" class="neutral-70"><h6 class="regular">Select</h6></router-link>
+            </li>
+            <li class="mb-1 w-max">
               <router-link to="/need" class="neutral-70"><h6 class="regular">Need ...</h6></router-link>
             </li>
           </ul>

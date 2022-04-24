@@ -11,6 +11,7 @@ import Tab from "./views/Tab.vue"
 import SCheckSwitch from "./views/SCheckSwitch.vue"
 import Chip from "./views/Chip.vue"
 import ChecksRadios from "./views/ChecksRadios.vue"
+import Select from "./views/Select.vue"
 import Need from "./views/Need.vue"
 
 Vue.use(VueRouter)
@@ -75,6 +76,11 @@ const routes = [
     path: '/need',
     name: 'need',
     component: Need
+  },
+  {
+    path: '/select',
+    name: 'select',
+    component: Select
   }
 ]
 

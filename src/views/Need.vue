@@ -1,21 +1,7 @@
 <template>
   <div class="shadow-light-100 p-3 m-3 bg-white">
     <main>
-
       <!-- <migrante-logo /> -->
-
-      <section class="mt-3">
-        <h1>Inputs</h1>
-        <h3>Select <small>vanilla</small></h3>
-        <div class="form-select" style="width: 339px">
-          <select name="select">
-            <option value="value1">Select item</option>
-            <option value="value2">Value 2</option>
-            <option value="value3">Value 3</option>
-          </select>
-          <span class="select-focus"></span>
-        </div>
-      </section>
 
       <section class="mt-3">
         <h1>Card</h1>
@@ -36,32 +22,6 @@
               >
               </b-table>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mt-3">
-        <h1>Vue Components</h1>
-        <h3>Select <small>select-form</small></h3>
-        <div class="flex">
-          <div class="mr-3" style="width: 339px">
-            <small>type-text="true"</small>
-            <select-form
-              v-model="selectValue"
-              :options="selectOptions"
-              value-field="code"
-              text-field="name"
-              :type-text="true"
-              placeholder="Select Item"
-            />
-          </div>
-          <div style="width: 339px">
-            <small>type-text="false"</small>
-            <select-form
-              v-model="selectValueB"
-              :options="['Afghanistan', 'Albania', 'Algeria']"
-              placeholder="Select Item"
-            />
           </div>
         </div>
       </section>
