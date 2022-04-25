@@ -22,7 +22,7 @@
     &:disabled {
       cursor: default;
 
-      &+.focus {
+      &+.select-focus {
         cursor: default;
         opacity: 0.40;
       }

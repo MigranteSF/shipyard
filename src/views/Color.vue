@@ -5,7 +5,7 @@
     <div class="ml-3 mb-5">
       <h2>Primary Colors</h2>
       <div class="row">
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scale" v-bind:key="index"
               v-bind:class="`bg-primary-${color} p-3`">
@@ -19,7 +19,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scaleB" v-bind:key="index"
               v-bind:class="`bg-secondary-${color} p-3`">
@@ -33,7 +33,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scale" v-bind:key="index"
               v-bind:class="`bg-primary-dark-${color} p-3`">
@@ -53,7 +53,7 @@
     <div class="ml-3 mb-5">
       <h2>States</h2>
       <div class="row">
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scaleB" v-bind:key="index"
               v-bind:class="`bg-success-${color} p-3`">
@@ -67,7 +67,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scale" v-bind:key="index"
               v-bind:class="`bg-info-${color} p-3`">
@@ -81,7 +81,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scale" v-bind:key="index"
               v-bind:class="`bg-warning-${color} p-3`">
@@ -95,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scale" v-bind:key="index"
               v-bind:class="`bg-error-${color} p-3`">
@@ -115,7 +115,7 @@
     <div class="ml-3 mb-5">
       <h2>Neutral Colors</h2>
       <div class="row">
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 col-lg-3 mb-3">
           <div class="card">
             <div v-for="(color, index) in scaleNeutral" v-bind:key="index"
               v-bind:class="`bg-neutral-${color} p-3`">

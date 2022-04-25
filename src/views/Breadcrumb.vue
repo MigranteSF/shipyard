@@ -28,7 +28,7 @@
         </code>
       </div>
       <small class="egg">
-        What you expected? a
+        What did you expect? a
         <b class="cursor-default" @mouseover="upCat = true" @mouseleave="upCat = false">cat</b>?
         <span :style="{visibility: upCat ? 'visible' : 'hidden'}">
           <i class="fa-solid fa-cat"></i>

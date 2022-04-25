@@ -75,6 +75,7 @@ export default {
   top: 5rem;
   display: block !important;
   overflow-y: auto;
+  height: calc(100vh - 5rem);
 }
 
 .nav-links a {

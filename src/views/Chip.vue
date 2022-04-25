@@ -116,6 +116,7 @@
         </div>
       </div>
     </div>
+    <small v-if="false">No olviden pololear</small>
   </section>
 </template>
 <script>

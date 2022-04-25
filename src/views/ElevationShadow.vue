@@ -2,6 +2,11 @@
   <section>
     <h1 class="mb-7">Elevation and Shadow</h1>
 
+    <!-- <div class="row border rounded p-3 m-1 mb-3">
+      <span class="card border-0 shadow-light-100 mx-3">
+        <p>Shadow 100%</p>
+      </span>
+    </div> -->
     <div class="sd-example-shadow flex border p-3 rounded mb-3">
       <span class="card border-0 shadow-light-100 mx-3">
         <p>Shadow 100%</p>

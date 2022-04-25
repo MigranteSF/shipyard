@@ -113,7 +113,7 @@
               <td><span class="regular">regular. Shipyard</span></td>
             </tr>
             <tr>
-              <td><code>.italic</code></td>
+              <td><code>&lt;em&gt;&lt;/em&gt; | .italic</code></td>
               <td><span class="italic">italic. Shipyard</span></td>
             </tr>
             <tr>
@@ -121,7 +121,7 @@
               <td><span class="p-medium">p-medium. Shipyard</span></td>
             </tr>
             <tr>
-              <td><code>.bold</code></td>
+              <td><code>&lt;b&gt;&lt;/b&gt; | .bold</code></td>
               <td><span class="bold">bold. Shipyard</span></td>
             </tr>
             <tr>
@@ -129,7 +129,7 @@
               <td><span class="bold-italic">bold-italic. Shipyard</span></td>
             </tr>
             <tr>
-              <td><code>.underline</code></td>
+              <td><code>&lt;u&gt;&lt;/u&gt; | .underline</code></td>
               <td><span class="underline">underline. Shipyard</span></td>
             </tr>
           </tbody>
