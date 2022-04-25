@@ -2,27 +2,34 @@
   <section>
     <h1 class="mb-7">Elevation and Shadow</h1>
 
-    <!-- <div class="row border rounded p-3 m-1 mb-3">
-      <span class="card border-0 shadow-light-100 mx-3">
-        <p>Shadow 100%</p>
-      </span>
-    </div> -->
-    <div class="sd-example-shadow flex border p-3 rounded mb-3">
-      <span class="card border-0 shadow-light-100 mx-3">
-        <p>Shadow 100%</p>
-      </span>
-      <span class="card border-0 shadow-light-80 mx-3">
-        <p>Shadow 80%</p>
-      </span>
-      <span class="card border-0 shadow-light-60 mx-3">
-        <p>Shadow 60%</p>
-      </span>
-      <span class="card border-0 shadow-light-40 mx-3">
-        <p>Shadow 40%</p>
-      </span>
-      <span class="card border-0 shadow-light-20 mx-3">
-        <p>Shadow 20%</p>
-      </span>
+    <div class="border rounded p-3 m-1 mb-3">
+      <div class="row sd-example-shadow col-lg-10 col-md-12">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <span class="card border-0 shadow-light-100">
+            <p>Shadow 100%</p>
+          </span>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <span class="card border-0 shadow-light-80">
+            <p>Shadow 80%</p>
+          </span>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <span class="card border-0 shadow-light-60">
+            <p>Shadow 60%</p>
+          </span>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <span class="card border-0 shadow-light-40">
+            <p>Shadow 40%</p>
+          </span>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <span class="card border-0 shadow-light-20">
+            <p>Shadow 20%</p>
+          </span>
+        </div>
+      </div>
     </div>
     <div class="code">
       <code>
@@ -43,7 +50,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .sd-example-shadow span {
-  width: 150px;
+  // width: 150px;
   height: 150px;
   padding: 13px;
 

@@ -52,6 +52,16 @@
     position: absolute;
     display: none;
   }
+
+  &.secondary {
+    & .checkmark {
+      border-color: $secondary-100;
+    }
+
+    &:hover input~.checkmark {
+      background-color: $secondary-15;
+    }
+  }
 }
 
 .form-checkbox {
@@ -74,6 +84,12 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+  
+  &.secondary {
+    & input:checked~.checkmark {
+      background-color: $secondary-100;
+    }
+  }
 }
 
 .form-radio {
@@ -86,5 +102,11 @@
     width: 8px;
     height: 8px;
     background-color: $primary-100;
+  }
+  
+  &.secondary {
+    & .checkmark:after {
+      background-color: $secondary-100;
+    }
   }
 }
