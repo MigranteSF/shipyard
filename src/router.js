@@ -1,5 +1,6 @@
 import Vue from "vue"
 import VueRouter from 'vue-router'
+
 import Home from "./views/Home.vue"
 import Color from "./views/Color.vue"
 import Typography from "./views/Typography.vue"
@@ -23,68 +24,75 @@ const routes = [
     component: Home
   },
   {
-    path: '/color',
+    path: '/content/color',
     name: 'color',
     component: Color
   },
   {
-    path: '/typography',
+    path: '/content/typography',
     name: 'typography',
     component: Typography
   },
   {
-    path: '/elevation&shadow',
+    path: '/content/elevation&shadow',
     name: 'elevation&shadow',
     component: ElevationShadow
   },
   {
-    path: '/button',
+    path: '/components/button',
     name: 'button',
     component: Button
   },
   {
-    path: '/badge',
+    path: '/components/badge',
     name: 'badge',
     component: Badge
   },
   {
-    path: '/breadcrumb',
+    path: '/components/breadcrumb',
     name: 'breadcrumb',
     component: Breadcrumb
   },
   {
-    path: '/tab',
+    path: '/components/tab',
     name: 'tab',
     component: Tab
   },
   {
-    path: '/switch',
+    path: '/components/switch',
     name: 'switch',
     component: SCheckSwitch
   },
   {
-    path: '/chip',
+    path: '/components/chip',
     name: 'chip',
     component: Chip
   },
   {
-    path: '/checks&radios',
+    path: '/components/checks&radios',
     name: 'checks&radios',
     component: ChecksRadios
+  },
+  {
+    path: '/components/select',
+    name: 'select',
+    component: Select
   },
   {
     path: '/need',
     name: 'need',
     component: Need
   },
-  {
-    path: '/select',
-    name: 'select',
-    component: Select
-  }
+  // 404
+  // {
+  //   path: '*',
+  //   component: Select
+  // }
 ]
 
 export default new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes,
   scrollBehavior() {
     return { x: 0, y: 0 }
