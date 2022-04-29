@@ -16,10 +16,10 @@
               <b-collapse id="collapse-content" :visible="isInPath('content', true)" accordion="menu">
                 <ul class="ml-2">
                   <li class="my-2 w-max">
-                    <router-link :to="{ name: 'typography' }" class="neutral-70"><small>Typography</small></router-link>
+                    <router-link :to="{ name: 'color' }" class="neutral-70"><small>Color</small></router-link>
                   </li>
                   <li class="my-2 w-max">
-                    <router-link :to="{ name: 'color' }" class="neutral-70"><small>Color</small></router-link>
+                    <router-link :to="{ name: 'typography' }" class="neutral-70"><small>Typography</small></router-link>
                   </li>
                   <li class="my-2 w-max">
                     <router-link :to="{ name: 'elevation&shadow' }" class="neutral-70"><small>Elevation and Shadow</small></router-link>
@@ -83,6 +83,9 @@ export default {
 
       return window.location.pathname.startsWith(`${process.env.BASE_URL}${route}`)
     }
+  },
+  created() {
+    document.title = 'Shipyard';
   }
 }
 </script>

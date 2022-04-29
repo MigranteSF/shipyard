@@ -1,19 +1,19 @@
 import Vue from "vue"
 import VueRouter from 'vue-router'
 
-import Home from "./views/Home.vue"
-import Color from "./views/Color.vue"
-import Typography from "./views/Typography.vue"
-import ElevationShadow from "./views/ElevationShadow.vue"
-import Button from "./views/Button.vue"
-import Badge from "./views/Badge.vue"
-import Breadcrumb from "./views/Breadcrumb.vue"
-import Tab from "./views/Tab.vue"
-import SCheckSwitch from "./views/SCheckSwitch.vue"
-import Chip from "./views/Chip.vue"
-import ChecksRadios from "./views/ChecksRadios.vue"
-import Select from "./views/Select.vue"
-import Need from "./views/Need.vue"
+import Home from "../views/Home.vue"
+import Color from "../views/Color.vue"
+import Typography from "../views/Typography.vue"
+import ElevationShadow from "../views/ElevationShadow.vue"
+import Button from "../views/Button.vue"
+import Badge from "../views/Badge.vue"
+import Breadcrumb from "../views/Breadcrumb.vue"
+import Tab from "../views/Tab.vue"
+import SCheckSwitch from "../views/SCheckSwitch.vue"
+import Chip from "../views/Chip.vue"
+import ChecksRadios from "../views/ChecksRadios.vue"
+import Select from "../views/Select.vue"
+import Need from "../views/Need.vue"
 
 Vue.use(VueRouter)
 
