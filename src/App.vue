@@ -55,6 +55,9 @@
                   <li class="my-2 w-max">
                     <router-link :to="{ name: 'select' }" class="neutral-70"><small>Select</small></router-link>
                   </li>
+                  <li class="my-2 w-max">
+                    <router-link :to="{ name: 'alert' }" class="neutral-70"><small>Alert</small></router-link>
+                  </li>
                 </ul>
               </b-collapse>
             </li>
@@ -64,7 +67,7 @@
           </ul>
         </nav>
       </aside>
-      <main class="col-md-9 col-xl-10 col-12 pt-4 pb-3">
+      <main class="col-md-9 col-xl-10 col-12 pt-3 pb-3">
         <div class="shadow-light-100 p-3">
           <router-view></router-view>
         </div>

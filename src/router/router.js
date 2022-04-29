@@ -14,6 +14,7 @@ import Chip from "../views/Chip.vue"
 import ChecksRadios from "../views/ChecksRadios.vue"
 import Select from "../views/Select.vue"
 import Need from "../views/Need.vue"
+import Alert from "../views/Alert.vue"
 
 Vue.use(VueRouter)
 
@@ -77,6 +78,11 @@ const routes = [
     path: '/components/select',
     name: 'select',
     component: Select
+  },
+  {
+    path: '/components/alert',
+    name: 'alert',
+    component: Alert
   },
   {
     path: '/need',
