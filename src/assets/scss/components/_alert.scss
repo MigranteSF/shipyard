@@ -1,4 +1,4 @@
-.message-banner {
+.message-banner, .message-card {
   position: relative;
   background: #fff;
   padding: 8px 20px;
@@ -23,7 +23,6 @@
   &.warning {
     color: $warning-140;
     background: $warning-15;
-    box-shadow: 0 1px 0 $warning-60;
 
     & .button {
       &-secondary,
@@ -51,7 +50,6 @@
   &.info {
     color: $info-140;
     background: $info-15;
-    box-shadow: 0 1px 0 $info-60;
 
     & .button {
       &-secondary,
@@ -117,5 +115,21 @@
   & .message-banner-actions {
     position: relative;
     white-space: nowrap;
+  }
+}
+
+.message {
+  &-banner {
+    &.warning {
+      box-shadow: 0 1px 0 $warning-60;
+    }
+
+    &.info {
+      box-shadow: 0 1px 0 $info-60;
+    }
+  }
+
+  &-card {
+    border-radius: 12px;
   }
 }

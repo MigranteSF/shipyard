@@ -7,7 +7,23 @@
         <h2 class="mb-2">Warning</h2>
         <div class="mb-2 border p-3 rounded">
 
-          <div class="message-banner warning">
+          <h5><b>Banner</b></h5>
+          <div class="message-banner warning mb-4">
+            <div class="limit-width">
+              <i class="fa-solid fa-triangle-exclamation mr-3"></i>
+              <p class="message-banner-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officiis odit culpa impedit!</small>
+              </p>
+              <div class="flex message-banner-actions">
+                <button class="button button-secondary button-sm">Shipyard</button>
+                <button class="button button-primary button-sm ml-2">Shipyard</button>
+              </div>
+            </div>
+          </div>
+
+          <h5><b>Card</b></h5>
+          <div class="message-card warning">
             <div class="limit-width">
               <i class="fa-solid fa-triangle-exclamation mr-3"></i>
               <p class="message-banner-text">
@@ -27,9 +43,25 @@
         <h2 class="mb-2">Info</h2>
         <div class="mb-2 border p-3 rounded">
 
-          <div class="message-banner info">
+          <h5><b>Banner</b></h5>
+          <div class="message-banner info mb-4">
             <div class="limit-width">
               <i class="fa-solid fa-circle-info mr-3"></i>
+              <p class="message-banner-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officiis odit culpa impedit!</small>
+              </p>
+              <div class="flex message-banner-actions">
+                <button class="button button-secondary button-sm">Shipyard</button>
+                <button class="button button-primary button-sm ml-2">Shipyard</button>
+              </div>
+            </div>
+          </div>
+
+          <h5><b>Card</b></h5>
+          <div class="message-card info">
+            <div class="limit-width">
+              <i class="fa-solid fa-triangle-exclamation mr-3"></i>
               <p class="message-banner-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officiis odit culpa impedit!</small>
