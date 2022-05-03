@@ -21,9 +21,59 @@
   -ms-flex-line-pack: distribute;
 
   &.warning {
-    color: #C74C00;
-    background: #fffaf6;
-    box-shadow: 0 1px 0 #fdd9b5;
+    color: $warning-140;
+    background: $warning-15;
+    box-shadow: 0 1px 0 $warning-60;
+
+    & .button {
+      &-secondary,
+      &-negative,
+      &-dashed {
+        color: $warning-120;
+        border: 1px solid $warning-100;
+
+        &:hover {
+          background-color: $warning-100;
+          color: $neutral-00;
+        }
+      }
+
+      &.button-primary {
+        background: $warning-120;
+
+        &:hover {
+          background: $warning-140;
+        }
+      }
+    }
+  }
+
+  &.info {
+    color: $info-140;
+    background: $info-15;
+    box-shadow: 0 1px 0 $info-60;
+
+    & .button {
+      &-secondary,
+      &-negative,
+      &-dashed {
+        color: $info-120;
+        border: 1px solid $info-100;
+
+        &:hover {
+          background-color: $info-100;
+          color: $neutral-00;
+        }
+      }
+
+      &.button-primary {
+        background: $info-120;
+
+        &:hover {
+          background: $info-140;
+        }
+      }
+    }
   }
 
   & .limit-width {

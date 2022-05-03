@@ -69,7 +69,8 @@ $secondary: #EDCF4E;
 $primary-dark: #051B5F;
 $success: #0E8428;
 $info: #006EF0;
-$warning: #FFC108;
+// $warning: #FFC108;
+$warning: #FF8514;
 $error: #DD2122;
 
 // color variants
@@ -97,11 +98,19 @@ $info-15: tint-color($info, 85%);
 $info-60: tint-color($info, 40%);
 $info-80: tint-color($info, 20%);
 $info-100: $info;
+$info-120: shade-color($info, 20%) !default;
+$info-140: shade-color($info, 40%) !default;
+$info-160: shade-color($info, 60%) !default;
+$info-180: shade-color($info, 80%) !default;
 
 $warning-15: tint-color($warning, 85%);
 $warning-60: tint-color($warning, 40%);
 $warning-80: tint-color($warning, 20%);
 $warning-100: $warning;
+$warning-120: shade-color($warning, 20%) !default;
+$warning-140: shade-color($warning, 40%) !default;
+$warning-160: shade-color($warning, 60%) !default;
+$warning-180: shade-color($warning, 80%) !default;
 
 $error-15: tint-color($error, 85%);
 $error-60: tint-color($error, 40%);
