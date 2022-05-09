@@ -19,13 +19,14 @@
     "url": ""
   },
   "homepage": "",
+  "author": "Migrante",
   "contributors": [
     {
       "name": "Javier Gomez",
       "email": "javier.gomez.contact@gmail.com"
     }
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
