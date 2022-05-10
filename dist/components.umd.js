@@ -2323,7 +2323,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"e6d1b216-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SelectForm/SelectForm.vue?vue&type=template&id=3cb7266b&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f4a36e6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SelectForm/SelectForm.vue?vue&type=template&id=3cb7266b&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"v-form-select"},[_c('input',{staticClass:"v-form-select__input",attrs:{"type":_vm.typeText ? 'text' : 'button',"placeholder":_vm.placeholder,"spellcheck":"false"},domProps:{"value":_vm.setValue},on:{"click":function($event){return _vm.dropList()},"input":function($event){return _vm.changeText($event.target.value)}}}),_c('span',{staticClass:"select-focus"}),_c('ul',{directives:[{name:"click-outside",rawName:"v-click-outside",value:(_vm.outList),expression:"outList"},{name:"out-view",rawName:"v-out-view",value:(function () {}),expression:"() => {}"}],ref:"list",attrs:{"x-placement":"bottom"}},_vm._l((_vm.selectOptions),function(option){return _c('li',{key:option.id,attrs:{"value":option.id},on:{"click":function($event){return _vm.selectOption($event)}}},[_vm._v(" "+_vm._s(option.data)+" ")])}),0)])}
 var staticRenderFns = []
 
@@ -2631,7 +2631,7 @@ var component = normalizeComponent(
 // CONCATENATED MODULE: ./src/components/SelectForm/index.js
 
 /* harmony default export */ var components_SelectForm = (SelectForm);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"e6d1b216-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MigranteLogo/MigranteLogo.vue?vue&type=template&id=e40b9656&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f4a36e6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MigranteLogo/MigranteLogo.vue?vue&type=template&id=e40b9656&
 var MigranteLogovue_type_template_id_e40b9656_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex-center",staticStyle:{"background":"#000","text-align":"right"}})}
 var MigranteLogovue_type_template_id_e40b9656_staticRenderFns = []
 

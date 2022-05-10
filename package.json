@@ -1,7 +1,7 @@
 {
   "name": "shipyard",
   "description": "Migrante design Vue",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
