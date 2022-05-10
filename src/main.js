@@ -3,7 +3,6 @@ import router from './router/router'
 import App from './App.vue'
 // import Shipyard from '../dist/index'
 import Shipyard from './components'
-import BootstrapVue from 'bootstrap-vue'
 import "@fortawesome/fontawesome-free/js/all";
 import favicon_migrante from './assets/svg/migranteIcon.svg'
 
@@ -16,7 +15,6 @@ document.getElementsByTagName('head')[0].appendChild(favicon);
 
 Vue.config.productionTip = false
 
-Vue.use(BootstrapVue);
 Vue.use(Shipyard);
 
 new Vue({

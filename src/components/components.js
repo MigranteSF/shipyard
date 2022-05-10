@@ -3,5 +3,5 @@ import MigranteLogo from "./MigranteLogo";
 
 export {
     SelectForm,
-    MigranteLogo,
+    MigranteLogo
 }
