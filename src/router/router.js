@@ -2,7 +2,7 @@ import Vue from "vue"
 import VueRouter from 'vue-router'
 
 import Home from "../views/Home.vue"
-import Color from "../views/Color.vue"
+import Color from "../views/Color"
 import Typography from "../views/Typography.vue"
 import ElevationShadow from "../views/ElevationShadow.vue"
 import Button from "../views/Button.vue"
