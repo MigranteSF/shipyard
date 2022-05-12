@@ -27,8 +27,8 @@ jobs:
         name: Upload S3 
         id: S3 
         with:
-          aws_key_id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
-          aws_bucket: dev-shipyard-webInfo
+          aws_key_id: ${{ secrets.AWS_S3_DEV_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_S3_DEV_SECRET_ACCESS_KEY }}
+          aws_bucket: dev-shipyard-web
           source_dir: 'dist'
           destination_dir: ''
