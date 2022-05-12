@@ -1,0 +1,34 @@
+name: js Package
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build-to-s3:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: User Node.js ${{matrix.node-version}}
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: run yarn install and build
+        run: |
+          yarn install
+          yarn docs
+        env:
+          CI: true
+      - uses: shallwefootball/s3-upload-action@master
+        name: Upload S3 
+        id: S3 
+        with:
+          aws_key_id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
+          aws_bucket: dev-shipyard-webInfo
+          source_dir: 'dist'
+          destination_dir: ''
