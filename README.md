@@ -1,24 +1,26 @@
 # Shipyard
 
-## Project setup
-```
-npm install
-```
+## Quick Start
+- Install with npm: `npm install https://github.com/MigranteSF/shipyard`
+- Install with yarn: `yarn add https://github.com/MigranteSF/shipyard`
 
-### Compiles and hot-reloads for development
+And add it to your app
+```
+import Shipyard from 'shipyard'
+Vue.use(Shipyard)
+```
+Or only css:
+```
+import 'shipyard/dist/components.css'
+```
+### Beta Documentation
+[Shipyard Docs](https://dev-shipyard-web.s3.amazonaws.com/index.html)
+
+Or run the project
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+Or
 ```
-npm run build
+yarn serve
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
