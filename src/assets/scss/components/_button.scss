@@ -153,12 +153,12 @@
     border: 2px solid $primary-60 !important;
   }
 
-  &:hover:enabled {
+  &:hover {
     text-decoration: none;
   }
 }
 
-a.button:hover:enabled {
+a.button:hover {
   color: $neutral-00;
   text-decoration: none !important;
 }
