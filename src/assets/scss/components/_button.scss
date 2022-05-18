@@ -5,23 +5,20 @@
   font-size: 14px;
   line-height: 20px;
   border-radius: 10px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   height: fit-content;
   padding: 6px 12px;
   text-align: center;
   background-color: #fff0;
   cursor: pointer;
 
-  & svg, img {
-    margin-left: 12px;
-  }
-
   &-lg {
     font-size: 16px;
     padding: 12px 18px;
   }
 
-  &-primary {
+  &-primary,
+  &-rounded.primary {
     background-color: $primary-100;
     color: $neutral-00;
 
@@ -29,20 +26,26 @@
       background-color: $primary-dark-80;
     }
 
-    &:hover {
+    &:hover:enabled {
       background-color: $primary-dark-100;
     }
   }
 
   &-secondary,
   &-negative,
-  &-dashed {
+  &-dashed,
+  &-rounded.secondary {
     color: $primary-100;
-    border: 1px solid $primary-60;
+    border: 1px solid $primary-100;
 
-    &:hover {
+    &:hover:enabled {
       background-color: $primary-60;
+      border: 1px solid $primary-60;
       color: $neutral-00;
+    }
+
+    &:focus {
+      border: 2px solid $primary-60 !important;
     }
   }
 
@@ -61,7 +64,7 @@
     text-align: center;
     text-align: -webkit-center;
 
-    &:hover {
+    &:hover:enabled {
       background-color: $primary-15;
       color: $primary-100 !important;
     }
@@ -97,6 +100,50 @@
     padding: 4.5px 21px;
   }
 
+  &-rounded {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 9px;
+    border-radius: 50px;
+
+    &:disabled {
+      background-color: $neutral-00;
+      color: $neutral-50;
+      border: 1px solid $neutral-50;
+      cursor: default;
+    }
+  }
+
+  &-rounded.error {
+    background-color: $neutral-00;
+    color: $error-100;
+    border: unset;
+
+    &:hover:enabled {
+      background-color: $error-100;
+      color: $neutral-00;
+    }
+
+    &:focus {
+      background-color: $error-100;
+      color: $neutral-00;
+      border: unset !important;
+    }
+  }
+
+  &-rounded.neutral {
+    background-color: $neutral-00;
+    color: $neutral-70;
+    border: unset;
+
+    &:hover:enabled {
+      background-color: $neutral-10;
+    }
+
+    &:focus {
+      border: 2px solid $neutral-25 !important;
+    }
+  }
+
   &:disabled {
     opacity: 0.40;
     cursor: default;
@@ -106,12 +153,12 @@
     border: 2px solid $primary-60 !important;
   }
 
-  &:hover {
+  &:hover:enabled {
     text-decoration: none;
   }
 }
 
-a.button:hover {
+a.button:hover:enabled {
   color: $neutral-00;
   text-decoration: none !important;
 }

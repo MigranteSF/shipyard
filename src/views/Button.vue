@@ -165,6 +165,46 @@
           </code>
         </div>
       </div>
+
+      <div class="mb-5">
+        <h2 class="mb-2">Rounded</h2>
+        <div class="border p-3 rounded mb-2 flex">
+          <button class="button button-rounded neutral mr-3">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+          <button class="button button-rounded primary mr-3">
+            <i class="fa-solid fa-cat"></i>
+          </button>
+          <button class="button button-rounded secondary mr-3">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+          <button class="button button-rounded error mr-3">
+            <i class="fa-solid fa-cat"></i>
+          </button>
+          <button class="button button-rounded error mr-3" disabled>
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+        <div class="code">
+          <code>
+            &lt;<em>button</em> <i>class</i>="button button-rounded neutral"&gt;<br>
+            &nbsp;&nbsp;&lt;<em>i</em> <i>class</i>="fa-solid fa-ellipsis"/&gt;<br>
+            &lt;<em>/button</em>&gt;<br>
+            &lt;<em>button</em> <i>class</i>="button button-rounded primary"&gt;<br>
+            &nbsp;&nbsp;&lt;<em>i</em> <i>class</i>="fa-solid fa-cat"/&gt;<br>
+            &lt;<em>/button</em>&gt;<br>
+            &lt;<em>button</em> <i>class</i>="button button-rounded secondary"&gt;<br>
+            &nbsp;&nbsp;&lt;<em>i</em> <i>class</i>="fa-solid fa-ellipsis"/&gt;<br>
+            &lt;<em>/button</em>&gt;<br>
+            &lt;<em>button</em> <i>class</i>="button button-rounded error"&gt;<br>
+            &nbsp;&nbsp;&lt;<em>i</em> <i>class</i>="fa-solid fa-cat"/&gt;<br>
+            &lt;<em>/button</em>&gt;<br>
+            &lt;<em>button</em> <i>class</i>="button button-rounded error" <i>disabled</i>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>i</em> <i>class</i>="fa-solid fa-ellipsis"/&gt;<br>
+            &lt;<em>/button</em>&gt;
+          </code>
+        </div>
+      </div>
     </div>
   </section>
 </template>

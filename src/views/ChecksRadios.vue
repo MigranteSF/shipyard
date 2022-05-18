@@ -29,12 +29,12 @@
             &lt;<em>label</em> <i>class</i>="form-checkbox"&gt;<br>
             &nbsp;&nbsp;Shipyard<br>
             &nbsp;&nbsp;&lt;<em>input</em> <i>type</i>="checkbox"/&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;Shipyard&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;&lt;<em>/span</em>&gt;<br>
             &lt;<em>/label</em>&gt;<br>
             &lt;<em>label</em> <i>class</i>="form-checkbox"&gt;<br>
             &nbsp;&nbsp;&lt;<em>input</em> <i>type</i>="checkbox" <i>checked</i> <i>disabled</i>/&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em>&gt;Shipyard&lt;<em>/span</em>&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;Disabled & Checked&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em>&gt;Disabled & Checked&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;&lt;<em>/span</em>&gt;<br>
             &lt;<em>/label</em>&gt;...
           </code>
         </div>
@@ -61,12 +61,12 @@
             &lt;<em>label</em> <i>class</i>="form-radio"&gt;<br>
             &nbsp;&nbsp;Shipyard<br>
             &nbsp;&nbsp;&lt;<em>input</em> <i>type</i>="radio" <i>name</i>="radiesito"/&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;Shipyard&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;&lt;<em>/span</em>&gt;<br>
             &lt;<em>/label</em>&gt;<br>
             &lt;<em>label</em> <i>class</i>="form-radio"&gt;<br>
             &nbsp;&nbsp;&lt;<em>input</em> <i>type</i>="radio" <i>name</i>="radiesito" <i>checked</i> <i>disabled</i>/&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em>&gt;Shipyard&lt;<em>/span</em>&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;Disabled&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em>&gt;Disabled&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;&lt;<em>/span</em>&gt;<br>
             &lt;<em>/label</em>&gt;
           </code>
         </div>
@@ -91,14 +91,14 @@
         <div class="code">
           <code>
             &lt;<em>label</em> <i>class</i>="form-checkbox secondary"&gt;<br>
-            &nbsp;&nbsp;Shipyard<br>
+            &nbsp;&nbsp;Secondary<br>
             &nbsp;&nbsp;&lt;<em>input</em> <i>type</i>="checkbox"/&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;Shipyard&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;&lt;<em>/span</em>&gt;<br>
             &lt;<em>/label</em>&gt;<br>
             &lt;<em>label</em> <i>class</i>="form-radio secondary"&gt;<br>
-            &nbsp;&nbsp;Shipyard<br>
+            &nbsp;&nbsp;Secondary<br>
             &nbsp;&nbsp;&lt;<em>input</em> <i>type</i>="radio" <i>name</i>="radiesito"/&gt;<br>
-            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;Shipyard&lt;<em>/span</em>&gt;<br>
+            &nbsp;&nbsp;&lt;<em>span</em> <i>class</i>="checkmark"&gt;&lt;<em>/span</em>&gt;<br>
             &lt;<em>/label</em>&gt;
           </code>
         </div>
