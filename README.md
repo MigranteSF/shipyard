@@ -14,7 +14,7 @@ Or only css:
 import 'shipyard/dist/components.css'
 ```
 ### Beta Documentation
-[Shipyard Docs](https://dev-shipyard-web.s3.amazonaws.com/index.html)
+[Shipyard Docs](https://shipyard.internal-dev.migrante.com/)
 
 Or run the project
 ```
