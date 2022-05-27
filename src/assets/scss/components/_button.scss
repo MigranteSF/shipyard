@@ -135,8 +135,9 @@
     color: $neutral-70;
     border: unset;
 
-    &:hover:enabled {
-      background-color: $neutral-10;
+    &:hover {
+      background-color: $neutral-10 !important;
+      color: $neutral-70 !important;
     }
 
     &:focus {
