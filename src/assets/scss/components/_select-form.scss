@@ -92,7 +92,7 @@
             cursor: pointer;
 
             &:hover {
-                background-color: $primary-dark-80;
+                background-color: var(--primary-dark-color-80);
                 color: $neutral-00;
             }
         }
