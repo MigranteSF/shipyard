@@ -98,9 +98,14 @@ $primary-dark-60: tint-color($primary-dark, 40%);
 $primary-dark-80: tint-color($primary-dark, 20%);
 $primary-dark-100: $primary-dark;
 
+$success-15: tint-color($success, 85%);
 $success-60: tint-color($success, 40%);
 $success-80: tint-color($success, 20%);
 $success-100: $success;
+$success-120: shade-color($success, 20%) !default;
+$success-140: shade-color($success, 40%) !default;
+$success-160: shade-color($success, 60%) !default;
+$success-180: shade-color($success, 80%) !default;
 
 $info-15: tint-color($info, 85%);
 $info-60: tint-color($info, 40%);

@@ -74,6 +74,33 @@
     }
   }
 
+  &.success {
+    color: $success-140;
+    background: $success-15;
+
+    & .button {
+      &-secondary,
+      &-negative,
+      &-dashed {
+        color: $success-120;
+        border: 1px solid $success-100;
+
+        &:hover {
+          background-color: $success-100;
+          color: $neutral-00;
+        }
+      }
+
+      &.button-primary {
+        background: $success-120;
+
+        &:hover {
+          background: $success-140;
+        }
+      }
+    }
+  }
+
   & .limit-width {
     width: 100%;
     max-width: 1200px;
@@ -126,6 +153,10 @@
 
     &.info {
       box-shadow: 0 1px 0 $info-60;
+    }
+
+    &.success {
+      box-shadow: 0 1px 0 $success-60;
     }
   }
 
